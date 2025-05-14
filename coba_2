@@ -1,1 +1,4 @@
 c <- rnorm(10)
+data(iris)
+summary(iris)
+plot(iris$Sepal.Width~iris$Petal.Width)
